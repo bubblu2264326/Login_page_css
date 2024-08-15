@@ -1,0 +1,179 @@
+html{
+    height: 100%;
+}
+body{
+    background: white;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 80%;
+    height: 80%;
+}
+.left{
+    width: 50%;
+    margin-left: 3%;
+   
+}
+.left .img1{
+    height:3vw;
+    width: 3vw;
+    margin-top: 2%;
+  }
+.left h1 {
+    margin-top: 10%;
+    font-size:3vw;
+    font-weight: 400;
+    margin-bottom: 3.5%;
+    opacity: 1;
+
+}
+.left h1 .we_r {
+    font-weight: 400;
+ 
+    opacity: 0.5;
+
+}
+.left  .p1{
+    opacity: 0.5;
+    
+}
+
+
+.left input[type="text"],.left input[type="password"]{
+    width:70%;
+    height: 6%;
+    outline: none;
+    border:1px solid grey;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.left input[type="text"]:focus,.left input[type="password"]:focus{
+   border-left: 4px solid black;
+}
+
+.chkpwd{
+    display: flex;
+    margin:5%  0%;  
+}
+.forget{
+    margin-left: 20%;
+}
+.btns{
+    height: 3vw;
+    
+
+}
+
+.btns *{
+    width: 20% ;
+    height: 2.5vw;
+    border:1px solid grey;
+    transition-property: all;
+    transition-duration:0.1s ;
+    transition-timing-function: ease-in;
+    font-size: 2vh;
+    font-weight: bold;
+}
+.btns  *:hover{
+ 
+    box-shadow: rgba(58, 61, 64, 0.2) 10px 8px 24px;
+}
+.btn1{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    background-color: white;
+    color: black;
+    margin-left: 4%;
+    opacity: 0.7;
+}
+
+
+.p2{
+    opacity: 0.5;
+    margin: 3% 0% 0% 0%;
+}
+.p3{
+    margin: 0;
+}
+
+.right{
+    background-image: url("./lv.jpg");
+ background-position: center;
+ background-size: cover;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   
+}
+.right .navbar{
+    color: aliceblue;
+    margin-left: 12%;
+    margin-top: 8%;
+    display: flex;
+    font-size: 0.8vw;
+    justify-content: space-evenly;
+    height: 4%;
+}
+.navbar *{
+  
+}
+.right .nprev{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0% 4% 4% 0%;
+}
+.image {
+    
+    height:  30% ;
+    width: 35%;
+    margin-left: 35%;
+   background-color: rgb(224, 220, 220);
+   border-radius: 10%;
+   display: grid;
+   place-items: center;
+}
+.image .img2{
+    height: 100%;
+    width: 100%;
+  border-radius: 10%;
+}
+.btn3{
+   
+}
+.nprev *{
+    width: 20% ;
+    height: 2.5vw;
+    border:1px solid grey;
+    transition-property: transform;
+    transition-duration:0.3s ;
+    transition-timing-function: ease-in;
+    font-size: 2vh;
+    font-weight: bold;
+}
+.nprev *:hover{
+    transform: scale(1.5);
+}
+.btn3{
+    background-color: black;
+    color: white;
+    margin-right: 2vw;
+}
+.btn4{
+    background-color: white;
+    color: black;
+    margin-left: 4%;
+    opacity: 0.7;
+}
+
+
+
+
